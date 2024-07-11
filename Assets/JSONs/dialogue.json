@@ -1,0 +1,46 @@
+{
+  "dialogues": [
+    {
+      "characterName": "John",
+      "chapter": "1",
+      "dialogueSequence": "1",
+      "dialogNumber": "1",
+      "text": "Hello, welcome to our story!"
+    },
+    {
+      "characterName": "John",
+      "chapter": "1",
+      "dialogueSequence": "1",
+      "dialogNumber": "2",
+      "text": "How u been"
+    },
+    {
+      "characterName": "Mark",
+      "chapter": "1",
+      "dialogueSequence": "1",
+      "dialogNumber": "1",
+      "text": "Hello,boss. How have you been doing?"
+    },
+    {
+      "characterName": "Mark",
+      "chapter": "1",
+      "dialogueSequence": "1",
+      "dialogNumber": "2",
+      "text": "We have been having troubling with the local communist party, the issue needs to be dealt with.  "
+    },
+    {
+      "characterName": "Mark",
+      "chapter": "1",
+      "dialogueSequence": "1",
+      "dialogNumber": "3",
+      "text": "I will pay you good money, trust me they are a big pain in my arsehole  "
+    },
+    {
+      "characterName": "Emily",
+      "chapter": "1",
+      "dialogueSequence": "2",
+      "dialogNumber": "2",
+      "text": "Thank you, John! It’s great to be here."
+    }
+  ]
+}
