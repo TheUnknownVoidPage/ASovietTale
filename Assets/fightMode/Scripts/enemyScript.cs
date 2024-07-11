@@ -123,7 +123,10 @@ public class EnemyScript : MonoBehaviour
                 break;
 
         }
-
+        if (GameObject.FindGameObjectWithTag("Player"))
+        {
+            player = GameObject.FindWithTag("Player").transform;
+        }
         Vector3 directionToPlayer = (player.position - transform.position).normalized;
         float distanceToPlayer = Vector3.Distance(transform.position, player.position);
 

@@ -5,7 +5,6 @@ public class CaameraFollowPlayer : MonoBehaviour
 {
     public Transform player;
     GameObject player1;
-    PlayerController pm;
     public bool followPlayer = true;
     Camera cam;
 
@@ -15,14 +14,18 @@ public class CaameraFollowPlayer : MonoBehaviour
     void Start()
     {
         player1 = GameObject.FindGameObjectWithTag("Player");
-        pm = player1.GetComponent<PlayerController>();
 
         cam = Camera.main;
     }
 
     void Update()
     {
-        CamFollowPlayerWithLookAhead();
+        if (GameObject.FindGameObjectWithTag("Player"))
+            {
+            player = GameObject.FindWithTag("Player").transform;
+            CamFollowPlayerWithLookAhead();
+            }
+        
     }
 
     void CamFollowPlayerWithLookAhead()
